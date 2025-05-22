@@ -19,17 +19,16 @@ This project implements a secure and scalable order management system with the f
 - Docker and Docker Compose (for containerized deployment)
 
 ### Local Development Setup
-
-Step 1: Create the .env file
-In the root directory of your app (or project) folder, create a new file named .env.
-
-##SECRET_KEY=Your_secret_key_here
-##MAIL_USERNAME=yourmail@gmail.com
-##MAIL_PASSWORD=your_gmail_app_password
-##MAIL_FROM=yourmail@gmail.com
-##MAIL_SERVER=smtp.gmail.com
-##MAIL_PORT=587
-
+0. Create the .env file:
+In the root directory of your app folder, create a new file named `.env` with the following content:
+```env
+SECRET_KEY=Your_secret_key_here
+MAIL_USERNAME=yourmail@gmail.com
+MAIL_PASSWORD=your_gmail_app_password
+MAIL_FROM=yourmail@gmail.com
+MAIL_SERVER=smtp.gmail.com
+MAIL_PORT=587
+```
 
 1. Clone the repository:
 ```bash
@@ -58,16 +57,16 @@ The API will be available at `http://localhost:8000`
 
 ## Running with Docker
 
-Step 1: Create the .env file
-In the root directory of your app (or project) folder, create a new file named .env.
-
-##SECRET_KEY=Your_secret_key_here
-##MAIL_USERNAME=yourmail@gmail.com
-##MAIL_PASSWORD=your_gmail_app_password
-##MAIL_FROM=yourmail@gmail.com
-##MAIL_SERVER=smtp.gmail.com
-##MAIL_PORT=587.gmail.com
+0. Create the .env file:
+In the root directory of your app folder, create a new file named `.env` with the following content:
+```env
+SECRET_KEY=Your_secret_key_here
+MAIL_USERNAME=yourmail@gmail.com
+MAIL_PASSWORD=your_gmail_app_password
+MAIL_FROM=yourmail@gmail.com
+MAIL_SERVER=smtp.gmail.com
 MAIL_PORT=587
+```
 
 1. Build and start the containers:
 ```bash
