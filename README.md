@@ -36,7 +36,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-4.import  the local files as from ap.filename import filenames
+4.import  the local files as from app.filename import filenames
 
 5. Run the application:
 ```bash
