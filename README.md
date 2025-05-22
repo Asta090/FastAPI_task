@@ -20,6 +20,14 @@ This project implements a secure and scalable order management system with the f
 
 ### Local Development Setup
 
+0.create your own .env file in the app directory with the following parameters
+SECRET_KEY=Your secret key
+MAIL_USERNAME=Your mail@gmail.com
+MAIL_PASSWORD=Your gmail app password
+MAIL_FROM=Your mail@gmail.com
+MAIL_SERVER=smtp.gmail.com
+MAIL_PORT=587
+
 1. Clone the repository:
 ```bash
 git clone <repository-url>
@@ -47,12 +55,20 @@ The API will be available at `http://localhost:8000`
 
 ## Running with Docker
 
+0.create your own .env file in the app directory with the following parameters
+SECRET_KEY=Your secret key
+MAIL_USERNAME=Your mail@gmail.com
+MAIL_PASSWORD=Your gmail app password
+MAIL_FROM=Your mail@gmail.com
+MAIL_SERVER=smtp.gmail.com
+MAIL_PORT=587
+
 1. Build and start the containers:
 ```bash
 docker-compose up --build
 ```
 
-2. The application will be available at `http://localhost:8000`
+2. The application will be available at `http://localhost:8000` for docs `http://localhost:8000/docs`
 
 ## API Endpoints
 
