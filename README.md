@@ -20,10 +20,13 @@ This project implements a secure and scalable order management system with the f
 
 ### Local Development Setup
 
-### .env File Example
+Step 1: Create the .env file
+In the root directory of your app (or project) folder, create a new file named .env.
 
-Create a `.env` file in your `app` directory with the following content:
-SECRET_KEY=Your secret key
+Step 2: Add Environment Variables
+Open the newly created .env file and add the following content to it:
+
+SECRET_KEY=Your_secret_key_here
 MAIL_USERNAME=yourmail@gmail.com
 MAIL_PASSWORD=your_gmail_app_password
 MAIL_FROM=yourmail@gmail.com
@@ -58,8 +61,18 @@ The API will be available at `http://localhost:8000`
 
 ## Running with Docker
 
-0.create your own .env file in the app directory with the following parameters
-<pre lang="markdown"> <code>``` SECRET_KEY=Your secret key MAIL_USERNAME=Your mail@gmail.com MAIL_PASSWORD=Your gmail app password MAIL_FROM=Your mail@gmail.com MAIL_SERVER=smtp.gmail.com MAIL_PORT=587 ```</code> </pre>
+Step 1: Create the .env file
+In the root directory of your app (or project) folder, create a new file named .env.
+
+Step 2: Add Environment Variables
+Open the newly created .env file and add the following content to it:
+
+SECRET_KEY=Your_secret_key_here
+MAIL_USERNAME=yourmail@gmail.com
+MAIL_PASSWORD=your_gmail_app_password
+MAIL_FROM=yourmail@gmail.com
+MAIL_SERVER=smtp.gmail.com
+MAIL_PORT=587
 
 1. Build and start the containers:
 ```bash
