@@ -1,0 +1,14 @@
+ 
+fastapi[standard]
+uvicorn[standard]
+sqlmodel
+passlib[bcrypt]
+pyjwt
+python-jose[cryptography]
+fastapi-mail
+python-dotenv
+pydantic-settings
+pydantic
+#pytest
+#httpx
+#pytest-asyncio
