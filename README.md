@@ -19,8 +19,8 @@ This project implements a secure and scalable order management system with the f
 - Docker and Docker Compose (for containerized deployment)
 
 ### Local Development Setup
-0. Create the .env file:
-In  your app folder, create a new file named `.env` with the following content:
+0. Create the .env file 
+In  your app folder with the following content:
 ```env
 SECRET_KEY=Your_secret_key_here
 MAIL_USERNAME=yourmail@gmail.com
@@ -57,8 +57,8 @@ The API will be available at `http://localhost:8000`
 
 ## Running with Docker
 
-0. Create the .env file:
-In  your app folder, create a new file named `.env` with the following content:
+0. Create the .env file 
+In  your app folder with the following content:
 ```env
 SECRET_KEY=Your_secret_key_here
 MAIL_USERNAME=yourmail@gmail.com
